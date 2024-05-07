@@ -54,8 +54,20 @@ export default function Signup() {
                         <h6>Ready to watch? Enter your email to create or start membership</h6>
                     </div>
                     <div className="form">
-                        <input type="email" onChange={handleChange} placeholder="Email Address" name="email"/>
-                        {showPassword && <input type="password" onChange={handleChange} placeholder="Password" name="password"/>}
+                        <input
+                            type="email"
+                            onChange={handleChange}
+                            placeholder="Email Address"
+                            name="email"
+                        />
+                        {showPassword &&
+                            <input
+                                type="password"
+                                onChange={handleChange}
+                                placeholder="Password"
+                                name="password"
+                            />
+                        }
                         {!showPassword && <button onClick={() => setShowPassword(true)}>Get Started</button>}
                     </div>
                     {showPassword && <button onClick={handleSubmit}>Sign Up</button>}
