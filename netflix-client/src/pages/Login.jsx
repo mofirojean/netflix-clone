@@ -9,7 +9,7 @@ import {useNavigate} from "react-router-dom";
 export default function Login() {
     const [formData, setFormData] = useState({
         email: "",
-        password: ''
+        password: ""
     });
     const navigate = useNavigate();
 
@@ -52,7 +52,7 @@ export default function Login() {
                             <div className="title">
                                 <h3 className="font-bold text-2xl mb-4 rounded-xl">Login</h3>
                             </div>
-                            <div className="container gap-4 flex flex-col">
+                            <div className="container gap-4 flex flex-col text-black">
                                 <input
                                     type="email"
                                     onChange={handleChange}
