@@ -67,7 +67,7 @@ const Container = styled.div`
             }
 
             .buttons {
-                margin: 5rem;
+                margin: 4rem 5rem;
                 gap: 2rem;
 
                 button {
