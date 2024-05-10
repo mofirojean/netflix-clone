@@ -25,3 +25,4 @@ dist-ssr
 
 # Remove API keys
 .env
+*.mp4
