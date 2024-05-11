@@ -25,4 +25,5 @@ dist-ssr
 
 # Remove API keys
 .env
+src/assets/movie
 *.mp4
