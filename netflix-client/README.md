@@ -1,1 +1,1 @@
-# FullStack Netflix Clone
+# Netflix Clone Client
